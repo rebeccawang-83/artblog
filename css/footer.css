@@ -1,13 +1,13 @@
 
 .three-column-footer-contact-form-container {
-  background-color: #8a8a8a;
+  background-color: #38b5d8;
 }
 
 .three-column-footer-contact-form-container .three-column-footer-contact-form {
   max-width: 75rem;
   margin-right: auto;
   margin-left: auto;
-  color: #e6e6e6;
+  color: #42d619;
   padding: 3.75rem 0;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .three-column-footer-contact-form-container .three-column-footer-contact-form a {
-  color: #e6e6e6;
+  color: #42d619;
 }
 
 .three-column-footer-contact-form-container .three-column-footer-contact-form .footer-left {
@@ -53,7 +53,7 @@
 }
 
 .three-column-footer-contact-form-container .three-column-footer-contact-form .footer-left .input-group input {
-  border-bottom: 2px solid #cacaca;
+  border-bottom: 2px solid #38b5d8;
 }
 
 @media print, screen and (min-width: 40em) {
@@ -143,11 +143,11 @@
 }
 
 .three-column-footer-contact-form-container .three-column-footer-contact-form .footer-center .input-group input {
-  border-bottom: 2px solid #cacaca;
+  border-bottom: 2px solid #38b5d8;
 }
 
 .three-column-footer-contact-form-container .three-column-footer-contact-form .footer-center .input-group textarea {
-  border-bottom: 2px solid #cacaca;
+  border-bottom: 2px solid #38b5d8;
 }
 
 .three-column-footer-contact-form-container .three-column-footer-contact-form .footer-right {
@@ -165,7 +165,7 @@
 }
 
 .three-column-footer-contact-form-container .three-column-footer-contact-form .footer-right h2 {
-  color: #fefefe;
+  color: #38b5d8;
 }
 
 .three-column-footer-contact-form-container .three-column-footer-contact-form .footer-right p {

@@ -44,12 +44,12 @@
          <div id="topbar-responsive" class="topbar-responsive-links">
            <div class="top-bar-right">
              <ul class="menu simple vertical medium-horizontal">
-               <li><a href="#">MOTOR YACHTS</a></li>
+               <li><a href="#">Artblog</a></li>
                <li><a href="chat.html#!/chat">Chat</a></li>
-               <li><a href="index.html#!/experience">EXPERIENCE</a></li>
-               <li><a href="index.html#!/request">REQUEST</a></li>
-               <li><a href="index.html#!/story">OUR STORY</a></li>
-               <li><a href="index.html#!/dealer">FIND A DEALER</a></li>
+               <li><a href="commision.html#!/Commision">Commision</a></li>
+               <li><a href="explor.html#!/explor">explor</a></li>
+               <li><a href="artists.html#!/story">artists</a></li>
+               <li><a href="deals.html#!/dealer">deals</a></li>
                <li>
                  <button type="button" class="button hollow topbar-responsive-button">INVENTORY</button>
                </li>
@@ -172,25 +172,25 @@
                  controller:'chatController',
                  templateUrl: 'app/views/chat.html'
                })
-             .when('/experience',
+             .when('/Commision',
                {
-                 controller: 'ExperienceController',
-                 templateUrl: 'app/views/experience.html'
+                 controller: 'commisionController',
+                 templateUrl: 'app/views/Commision.html'
                })
-               .when('/request',
+               .when('/explor',
                  {
-                   controller: 'RequestController',
-                   templateUrl: 'app/views/request.html'
+                   controller: 'explorController',
+                   templateUrl: 'app/views/explor.html'
                  })
-              .when('/dealer',
+              .when('/artists',
                  {
-                   controller: 'DealerController',
-                   templateUrl: 'app/views/dealer.html'
+                   controller: 'artistsController',
+                   templateUrl: 'app/views/artists.html'
                  })
-              .when('/story',
+              .when('/deals',
                  {
-                   controller: 'StoryController',
-                   templateUrl: 'app/views/story.html'
+                   controller: 'dealsController',
+                   templateUrl: 'app/views/deals.html'
                  })
              .when('/adam',
                 {

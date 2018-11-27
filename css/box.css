@@ -11,13 +11,13 @@
 }
 
 .button-group.round :first-child {
-  border-radius: 5000px 0 0 5000px;
+  border-radius: 100px 0 0 100px;
 }
 
 .button-group.round :last-child {
-  border-radius: 0 5000px 5000px 0;
+  border-radius: 0 100px 100px 0;
 }
 
 .column-block {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }

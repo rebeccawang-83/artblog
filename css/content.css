@@ -9,7 +9,7 @@
 }
 
 .marketing-site-content-section .button.round {
-  border-radius: 5000px;
+  border-radius: 500px;
   text-transform: uppercase;
   margin-bottom: 0;
 }
@@ -44,7 +44,7 @@
   -webkit-align-self: stretch;
       -ms-flex-item-align: stretch;
           align-self: stretch;
-  background: #e6e6e6;
+  background: #f24848;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
