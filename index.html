@@ -44,11 +44,11 @@
          <div id="topbar-responsive" class="topbar-responsive-links">
            <div class="top-bar-right">
              <ul class="menu simple vertical medium-horizontal">
-               <li><a href="#">ArtBlog</a></li>
-               <li><a href="Art/index.html">Art</a></li>
-               <li><a href="index.html#!/chat">Chat</a></li>
+               <li><a href="#">MOTOR YACHTS</a></li>
+               <li><a href="sportfish/index.html">SPORTFISH</a></li>
+               <li><a href="index.html#!/experience">EXPERIENCE</a></li>
                <li><a href="index.html#!/request">REQUEST</a></li>
-               <li><a href="index.html#!/Commisions">Commisions</a></li>
+               <li><a href="index.html#!/story">OUR STORY</a></li>
                <li><a href="index.html#!/dealer">FIND A DEALER</a></li>
                <li>
                  <button type="button" class="button hollow topbar-responsive-button">INVENTORY</button>
@@ -165,32 +165,32 @@
 
 
       <script>
-           var app = angular.module('artblogApp',['ngRoute']);
+           var app = angular.module('customersApp',['ngRoute']);
            app.config(function($routeProvider) {
              $routeProvider.when('/',
                {
-                 controller:'ArtController',
-                 templateUrl: 'app/views/art.html'
+                 controller:'CustomersController',
+                 templateUrl: 'app/views/customers.html'
                })
-             .when('/chat',
+             .when('/experience',
                {
-                 controller: 'ChatController',
-                 templateUrl: 'app/views/chat.html'
+                 controller: 'ExperienceController',
+                 templateUrl: 'app/views/experience.html'
                })
                .when('/request',
                  {
                    controller: 'RequestController',
                    templateUrl: 'app/views/request.html'
                  })
-              .when('/commsions',
-                 {
-                   controller: 'CommsionsController',
-                   templateUrl: 'app/views/commisions.html'
-                 })
               .when('/dealer',
                  {
                    controller: 'DealerController',
                    templateUrl: 'app/views/dealer.html'
+                 })
+              .when('/story',
+                 {
+                   controller: 'StoryController',
+                   templateUrl: 'app/views/story.html'
                  })
              .when('/adam',
                 {
@@ -198,13 +198,13 @@
                   templateUrl: 'app/views/adam.html'
                 })
            });
-           app.controller('ChatController', function($scope){
+           app.controller('ExperienceController', function($scope){
              $scope.customerID = 5;
            });
            app.controller('RequestController', function($scope){
              $scope.customerID = 5;
            });
-           app.controller('CommsionsController', function($scope){
+           app.controller('StoryController', function($scope){
              $scope.customerID = 5;
            });
            app.controller('DealerController', function($scope){
@@ -213,7 +213,7 @@
            app.controller('AdamController', function($scope){
              $scope.customerID = 5;
            });
-           app.controller('artController', function($scope) {
+           app.controller('CustomersController', function($scope) {
              $scope.customers = [
                  {"id": 1, "name":"Ted", "total": 5.996},
                  {"id": 2, "name":"Michelle", "total": 10.994},
