@@ -7,7 +7,7 @@
 
 .filter-simple .filter-simple-button.hollow.is-active, .filter-simple .filter-simple-button.hollow:focus, .filter-simple .filter-simple-button.hollow:active {
   background-color: #1779ba;
-  color: #fefefe;
+  color: #6ffceb;
 }
 
 .button-group.round :first-child {
